@@ -81,7 +81,7 @@ class ProfileController extends Controller
            'title' => 'required',
            'description' => 'required',
            'url' => 'required',  
-           'avatar' => 'image'                  
+           'avatar' => 'sometimes|image'                  
         ]);
 
         if(request('avatar')){
