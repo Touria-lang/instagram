@@ -10,7 +10,7 @@
             <div class="d-flex">
                
                 <div class="h4 mr-3 pt-2">{{$profile->user->username}}</div>
-                <button type="button" class="btn btn-sm btn-primary ">S'abonner</button>    
+                <follow-button></follow-button>    
             </div>
             <div class="d-flex mt-3 ">
                 <div class="mr-2"><strong>{{$profile->user->posts->count()}}</strong> publications</div>
