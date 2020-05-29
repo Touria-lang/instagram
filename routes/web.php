@@ -24,3 +24,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 //Route::get('/profiles/{$username}','ProfileController@show')->name('profile.show');
 Route::resource('profiles','ProfileController');
 Route::resource('posts','PostController');
+Route::get('follows/{profile}','followController@store');

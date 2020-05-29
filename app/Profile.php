@@ -19,4 +19,8 @@ class Profile extends Model
         $avatarPath = $this->avatar ? $this->avatar : "avatars/avatar.jpg";
         return 'storage/'.$avatarPath;
     }
+    public function followers()
+    {
+        return $this->belongsToMany('App\User');
+    }
 }

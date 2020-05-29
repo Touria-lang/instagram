@@ -1904,17 +1904,9 @@ module.exports = {
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/followButton.vue?vue&type=script&lang=js& ***!
   \***********************************************************************************************************************************************************************/
 /*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-/* harmony default export */ __webpack_exports__["default"] = ({});
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\laragon\\www\\instagram\\resources\\js\\components\\followButton.vue: Unexpected token, expected \",\" (29:8)\n\n\u001b[0m \u001b[90m 27 | \u001b[39m              \u001b[0m\n\u001b[0m \u001b[90m 28 | \u001b[39m        }\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 29 | \u001b[39m        follows ()\u001b[0m\n\u001b[0m \u001b[90m    | \u001b[39m        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 30 | \u001b[39m        {\u001b[0m\n\u001b[0m \u001b[90m 31 | \u001b[39m            \u001b[36mreturn\u001b[39m (\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mfollows) \u001b[33m?\u001b[39m \u001b[32m\"ne plus suivre\"\u001b[39m \u001b[33m:\u001b[39m \u001b[32m\"suivre\"\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 32 | \u001b[39m        }\u001b[0m\n    at Parser._raise (C:\\laragon\\www\\instagram\\node_modules\\@babel\\parser\\lib\\index.js:742:17)\n    at Parser.raiseWithData (C:\\laragon\\www\\instagram\\node_modules\\@babel\\parser\\lib\\index.js:735:17)\n    at Parser.raise (C:\\laragon\\www\\instagram\\node_modules\\@babel\\parser\\lib\\index.js:729:17)\n    at Parser.unexpected (C:\\laragon\\www\\instagram\\node_modules\\@babel\\parser\\lib\\index.js:8779:16)\n    at Parser.expect (C:\\laragon\\www\\instagram\\node_modules\\@babel\\parser\\lib\\index.js:8765:28)\n    at Parser.parseObj (C:\\laragon\\www\\instagram\\node_modules\\@babel\\parser\\lib\\index.js:10387:14)\n    at Parser.parseExprAtom (C:\\laragon\\www\\instagram\\node_modules\\@babel\\parser\\lib\\index.js:10017:28)\n    at Parser.parseExprSubscripts (C:\\laragon\\www\\instagram\\node_modules\\@babel\\parser\\lib\\index.js:9624:23)\n    at Parser.parseMaybeUnary (C:\\laragon\\www\\instagram\\node_modules\\@babel\\parser\\lib\\index.js:9604:21)\n    at Parser.parseExprOps (C:\\laragon\\www\\instagram\\node_modules\\@babel\\parser\\lib\\index.js:9474:23)\n    at Parser.parseMaybeConditional (C:\\laragon\\www\\instagram\\node_modules\\@babel\\parser\\lib\\index.js:9447:23)\n    at Parser.parseMaybeAssign (C:\\laragon\\www\\instagram\\node_modules\\@babel\\parser\\lib\\index.js:9402:21)\n    at Parser.parseObjectProperty (C:\\laragon\\www\\instagram\\node_modules\\@babel\\parser\\lib\\index.js:10534:101)\n    at Parser.parseObjPropValue (C:\\laragon\\www\\instagram\\node_modules\\@babel\\parser\\lib\\index.js:10559:101)\n    at Parser.parseObjectMember (C:\\laragon\\www\\instagram\\node_modules\\@babel\\parser\\lib\\index.js:10483:10)\n    at Parser.parseObj (C:\\laragon\\www\\instagram\\node_modules\\@babel\\parser\\lib\\index.js:10396:25)\n    at Parser.parseExprAtom (C:\\laragon\\www\\instagram\\node_modules\\@babel\\parser\\lib\\index.js:10017:28)\n    at Parser.parseExprSubscripts (C:\\laragon\\www\\instagram\\node_modules\\@babel\\parser\\lib\\index.js:9624:23)\n    at Parser.parseMaybeUnary (C:\\laragon\\www\\instagram\\node_modules\\@babel\\parser\\lib\\index.js:9604:21)\n    at Parser.parseExprOps (C:\\laragon\\www\\instagram\\node_modules\\@babel\\parser\\lib\\index.js:9474:23)\n    at Parser.parseMaybeConditional (C:\\laragon\\www\\instagram\\node_modules\\@babel\\parser\\lib\\index.js:9447:23)\n    at Parser.parseMaybeAssign (C:\\laragon\\www\\instagram\\node_modules\\@babel\\parser\\lib\\index.js:9402:21)\n    at Parser.parseExportDefaultExpression (C:\\laragon\\www\\instagram\\node_modules\\@babel\\parser\\lib\\index.js:12306:24)\n    at Parser.parseExport (C:\\laragon\\www\\instagram\\node_modules\\@babel\\parser\\lib\\index.js:12208:31)\n    at Parser.parseStatementContent (C:\\laragon\\www\\instagram\\node_modules\\@babel\\parser\\lib\\index.js:11208:27)\n    at Parser.parseStatement (C:\\laragon\\www\\instagram\\node_modules\\@babel\\parser\\lib\\index.js:11104:17)\n    at Parser.parseBlockOrModuleBlockBody (C:\\laragon\\www\\instagram\\node_modules\\@babel\\parser\\lib\\index.js:11679:25)\n    at Parser.parseBlockBody (C:\\laragon\\www\\instagram\\node_modules\\@babel\\parser\\lib\\index.js:11665:10)\n    at Parser.parseTopLevel (C:\\laragon\\www\\instagram\\node_modules\\@babel\\parser\\lib\\index.js:11035:10)\n    at Parser.parse (C:\\laragon\\www\\instagram\\node_modules\\@babel\\parser\\lib\\index.js:12671:10)\n    at parse (C:\\laragon\\www\\instagram\\node_modules\\@babel\\parser\\lib\\index.js:12722:38)\n    at parser (C:\\laragon\\www\\instagram\\node_modules\\@babel\\core\\lib\\parser\\index.js:54:34)\n    at parser.next (<anonymous>)\n    at normalizeFile (C:\\laragon\\www\\instagram\\node_modules\\@babel\\core\\lib\\transformation\\normalize-file.js:93:38)\n    at normalizeFile.next (<anonymous>)\n    at run (C:\\laragon\\www\\instagram\\node_modules\\@babel\\core\\lib\\transformation\\index.js:31:50)");
 
 /***/ }),
 
@@ -37461,9 +37453,11 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("button", { staticClass: "btn btn-sm btn-primary " }, [
-    _vm._v("S'abonner")
-  ])
+  return _c("button", {
+    staticClass: "btn btn-sm btn-primary",
+    domProps: { textContent: _vm._s(_vm.follows) },
+    on: { click: _vm.followProfile }
+  })
 }
 var staticRenderFns = []
 render._withStripped = true

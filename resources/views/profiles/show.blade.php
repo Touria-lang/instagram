@@ -10,7 +10,7 @@
             <div class="d-flex">
                
                 <div class="h4 mr-3 pt-2">{{$profile->user->username}}</div>
-                <follow-button></follow-button>    
+                <follow-button  profile-id="{{$profile->id}}" follows="{{$follows}}"></follow-button>    
             </div>
             <div class="d-flex mt-3 ">
                 <div class="mr-2"><strong>{{$profile->user->posts->count()}}</strong> publications</div>

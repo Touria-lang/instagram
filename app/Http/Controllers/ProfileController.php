@@ -50,9 +50,9 @@ class ProfileController extends Controller
     public function show($id)
     {
         
-        
+        $follows = (auth()->user())? auth()->user()->following->contains($id) : false ;
         $profile = Profile::find($id);
-        return view('profiles.show',['profile' => $profile]);
+        return view('profiles.show',['profile' => $profile, 'follows' => $follows]);
     }
 
     /**
